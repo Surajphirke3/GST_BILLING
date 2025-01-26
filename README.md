@@ -33,7 +33,8 @@ Open the project in Android Studio.
 Sync Gradle to download the dependencies.
 Run the application on an Android device/emulator.
 Usage
-Login/Sign-Up: Access the app by creating or logging into your account.
+---
+login/Sign-Up: Access the app by creating or logging into your account.
 Add Customers: Create customer profiles with necessary details.
 Add Products/Services: Define products/services with their prices and GST rates.
 Generate Invoices: Create invoices and download them in PDF format.
