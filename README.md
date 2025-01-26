@@ -42,7 +42,7 @@ View Reports: View GST and sales reports within the app.
 Screenshots
 Add screenshots here to showcase your app's interface! For example:
 
-
+--
 Roadmap
  Add multi-language support.
  Implement data synchronization with cloud storage.
