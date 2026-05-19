@@ -17,10 +17,10 @@ Welcome to the **GST Billing System**! This Android application automates GST (G
 
 ## Technologies Used
 
-- **Frontend**: Android (Java/Kotlin)
-- **Database**: SQLite or Firebase (Specify your choice)
-- **PDF Generation**: iText or any PDF library used
-- **Other Libraries**: [e.g., Retrofit for API calls, Gson for data parsing]
+- **Frontend**: Android (Java)
+- **Database**: SQLite
+- **PDF Generation**: Native Android PdfDocument (`android.graphics.pdf.PdfDocument`)
+- **Other Libraries**: Android Support Library v7, Constraint Layout, Espresso
 
 ---
 
@@ -29,32 +29,50 @@ Welcome to the **GST Billing System**! This Android application automates GST (G
 1. Clone the repository:
    ```bash
    git clone https://github.com/Surajphirke3/GST_BILLING.git
-Open the project in Android Studio.
-Sync Gradle to download the dependencies.
-Run the application on an Android device/emulator.
-Usage
----
-login/Sign-Up: Access the app by creating or logging into your account.
-Add Customers: Create customer profiles with necessary details.
-Add Products/Services: Define products/services with their prices and GST rates.
-Generate Invoices: Create invoices and download them in PDF format.
-View Reports: View GST and sales reports within the app.
-Screenshots
-Add screenshots here to showcase your app's interface! For example:
+   ```
+2. Open the project in Android Studio.
+3. Sync Gradle to download the dependencies.
+4. Run the application on an Android device/emulator.
 
---
-Roadmap
- Add multi-language support.
- Implement data synchronization with cloud storage.
- Add payment gateway integrations.
- Implement advanced analytics for sales tracking.
-Contributing
+---
+
+## Usage
+
+- **Login/Sign-Up**: Access the app by creating or logging into your account.
+- **Add Customers**: Create customer profiles with necessary details.
+- **Add Products/Services**: Define products/services with their prices and GST rates.
+- **Generate Invoices**: Create invoices and download them in PDF format.
+- **View Reports**: View GST and sales reports within the app.
+
+---
+
+## Screenshots
+
+*(Add screenshots here to showcase your app's interface)*
+
+---
+
+## Roadmap
+
+- Add multi-language support.
+- Implement data synchronization with cloud storage.
+- Add payment gateway integrations.
+- Implement advanced analytics for sales tracking.
+
+---
+
+## Contributing
+
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a new branch for your feature.
-Commit your changes.
-Push the branch and open a pull request.
-License
-This project is licensed under the MIT License.
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Commit your changes.
+4. Push the branch and open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
